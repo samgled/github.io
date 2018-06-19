@@ -1,0 +1,304 @@
+<!doctype html>
+<html class="no-js" lang="">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+        <title></title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+
+        <link rel="stylesheet" href="css/normalize.min.css">
+        <link rel="stylesheet" href="css/main.css">
+		<link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+    </head>
+    <body>
+        <!--[if lt IE 8]>
+            <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
+        <![endif]-->
+
+        <ul id="main-nav">
+			<li id="conversation" class="li-1">
+				<div class="icon-with-text-div">
+					<div class="icon-with-text-icon">
+						<i class="far fa-comment"></i>
+					</div>
+					<div class="icon-with-text-text">Speech Keyboard</div>
+				</div>
+				<ul id="conversation-ul">
+					<li id="conversation-ul-li"></li>
+				</ul>
+			</li>
+			<li id="keyboards" class="li-1">
+				<div class="icon-with-text-div">
+					<div class="icon-with-text-icon">
+						<i class="far fa-keyboard"></i>
+					</div>
+					<div class="icon-with-text-text">Active Keyboards</div>
+				</div>
+				<ul id="keyboards-ul" class="ul-2">
+					<li id="alpha">
+						<div class="icon-with-text-div">
+							<div class="icon-with-text-icon">Abc</div>
+							<div class="icon-with-text-text">Alphabet Keyboard</div>
+						</div>
+						<ul id="alpha-ul">
+							<li id="alpha-ul-li"></li>
+						</ul>
+					</li>
+					<li id="numeric">
+						<div class="icon-with-text-div">
+							<div class="icon-with-text-icon">123</div>
+							<div class="icon-with-text-text">Number Keyboard</div>
+						</div>
+						<ul id="numeric-ul">
+							<li id="numeric-ul-li"></li>
+						</ul>
+					</li>
+					<li id="special">
+						<div class="icon-with-text-div">
+							<div class="icon-with-text-icon">ēñß</div>
+							<div class="icon-with-text-text">Special Characters</div>
+						</div>
+						<ul id="special-ul">
+							<li id="special-ul-li"></li>
+						</ul>
+					</li>
+					<li id="currency">
+						<div class="icon-with-text-div">
+							<div class="icon-with-text-icon">£$¥</div>
+							<div class="icon-with-text-text">Currencies</div>
+						</div>
+						<ul id="currency-ul">
+							<li id="currency-ul-li"></li>
+						</ul>
+					</li>
+					<li id="physical">
+						<div class="icon-with-text-div">
+							<div class="icon-with-text-icon">
+								<span class="fa-layers fa-fw">
+									<i class="fas fa-caret-square-up" data-fa-transform="shrink-9 up-5"></i>
+									<i class="fas fa-caret-square-down" data-fa-transform="shrink-9 down-3"></i>
+									<i class="fas fa-caret-square-left" data-fa-transform="shrink-9 down-3 left-8"></i>
+									<i class="fas fa-caret-square-right" data-fa-transform="shrink-9 down-3 right-8"></i>
+								</span>
+							</div>
+							<div class="icon-with-text-text">Function Keys</div>
+						</div>
+						<ul id="physical-ul">
+							<li id="physical-ul-li"></li>
+						</ul>
+					</li>
+					<li id="web">
+						<div class="icon-with-text-div">
+							<div class="icon-with-text-icon">
+								<i class="fas fa-globe"></i>
+							</div>
+							<div class="icon-with-text-text">Internet Shortcuts</div>
+						</div>
+						<ul id="web-ul">
+							<li id="web-ul-li"></li>
+						</ul>
+					</li>
+				</ul>
+			</li>
+			<li id="mouse" class="li-1">
+				<div class="icon-with-text-div">
+					<div class="icon-with-text-icon">
+						<i class="fas fa-mouse-pointer"></i>
+					</div>
+					<div class="icon-with-text-text">Mouse Actions</div>
+				</div>
+				<ul id="mouse-ul" class="ul-2">
+					<li id="expand">
+						<div class="icon-with-text-div">
+							<div class="icon-with-text-icon">
+								<i class="fas fa-expand-arrows-alt"></i>
+							</div>
+							<div class="icon-with-text-text">Expand Menu</div>
+						</div>
+					</li>
+					<li id="mouse-left">
+						<div class="icon-with-text-div">
+							<div class="icon-with-text-icon">
+								<span class="fa-layers fa-fw">
+									<i class="fas fa-mouse-pointer" data-fa-transform="right-4"></i>
+									<i class="fas fa-asterisk" data-fa-transform="shrink-10 up-6 left-7"></i>
+								</span>
+							</div>
+							<div class="icon-with-text-text">Left Click</div>
+						</div>
+					</li>
+					<li id="mouse-double">
+						<div class="icon-with-text-div">
+							<div class="icon-with-text-icon">
+								<span class="fa-layers fa-fw">
+									<i class="fas fa-mouse-pointer" data-fa-transform="right-6"></i>
+									<i class="fas fa-asterisk" data-fa-transform="shrink-10 up-7 left-4"></i>
+									<i class="fas fa-asterisk" data-fa-transform="shrink-10 up-4 left-10"></i>
+								</span>
+							</div>
+							<div class="icon-with-text-text">Double Click</div>
+						</div>
+					</li>
+					<li id="mouse-right">
+						<div class="icon-with-text-div">
+							<div class="icon-with-text-icon">
+								<span class="fa-layers fa-fw">
+									<i class="fas fa-mouse-pointer" data-fa-transform="left-2"></i>
+									<i class="fas fa-asterisk" data-fa-transform="shrink-10 up-7 right-5"></i>
+								</span>
+							</div>
+							<div class="icon-with-text-text">Right Click</div>
+						</div>
+					</li>
+					<li id="scroll-up">
+						<div class="icon-with-text-div">
+							<div class="icon-with-text-icon">
+								<span class="fa-layers fa-fw">
+									<i class="fas fa-angle-double-up"></i>
+								</span>
+							</div>
+							<div class="icon-with-text-text">Scroll Up</div>
+						</div>
+					</li>
+					<li id="scroll-down">
+						<div class="icon-with-text-div">
+							<div class="icon-with-text-icon">
+								<span class="fa-layers fa-fw">
+									<i class="fas fa-angle-double-down"></i>
+								</span>
+							</div>
+							<div class="icon-with-text-text">Scroll Down</div>
+						</div>
+					</li>
+					<li id="zoom">
+						<div class="icon-with-text-div">
+							<div class="icon-with-text-icon">
+								<i class="fas fa-search-plus"></i>
+							</div>
+							<div class="icon-with-text-text">Zoom Click On/Off</div>
+						</div>
+					</li>
+				</ul>
+			</li>
+			<li id="settings" class="li-1">
+				<div class="icon-with-text-div">
+					<div class="icon-with-text-icon">
+						<i class="fas fa-cog"></i>
+					</div>
+					<div class="icon-with-text-text">Settings</div>
+				</div>
+				<ul id="settings-ul" class="ul-2">
+					<li id="opacity-up" class="settings-ul-li">
+						<div class="icon-with-text-div">
+							<div class="icon-with-text-icon">
+								<span class="fa-layers fa-fw">
+									<i class="fas fa-adjust"></i>
+									<i style="color:#000;" class="fas fa-plus" data-fa-transform="shrink-12 left-3.5"></i>
+								</span>
+							</div>
+							<div class="icon-with-text-text">Increase Opacity</div>
+						</div>
+					</li>
+					<li id="opacity-down" class="settings-ul-li">
+						<div class="icon-with-text-div">
+							<div class="icon-with-text-icon">
+								<span class="fa-layers fa-fw">
+									<i class="fas fa-adjust"></i>
+									<i class="fas fa-minus" data-fa-transform="shrink-12 right-3"></i>
+								</span>
+							</div>
+							<div class="icon-with-text-text">Decrease Opacity</div>
+						</div>
+					</li>
+					<li id="language" class="settings-ul-li">
+						<div class="icon-with-text-div">
+							<div class="icon-with-text-icon">
+								<i class="fas fa-language"></i>
+							</div>
+							<div class="icon-with-text-text">Change Language</div>
+						</div>
+					</li>
+					<li id="language" class="settings-ul-li">
+						<div class="icon-with-text-div">
+							<div class="icon-with-text-icon">
+								<i class="fas fa-crosshairs"></i>
+							</div>
+							<div class="icon-with-text-text">Recalibrate Tracker</div>
+						</div>
+					</li>
+					<li id="quit" class="settings-ul-li">
+						<div class="icon-with-text-div">
+							<div class="icon-with-text-icon">
+								<i class="fas fa-power-off"></i>
+							</div>
+							<div class="icon-with-text-text">Quit</div>
+						</div>
+					</li>					
+					<li id="extra-settings" class="settings-ul-li">
+						<div class="icon-with-text-div">
+							<div class="icon-with-text-icon">
+								<i class="fas fa-toggle-on"></i>
+							</div>
+							<div class="icon-with-text-text">Enable quit key</div>
+						</div>
+					</li>					
+					<li id="extra-settings" class="settings-ul-li">
+						<div class="icon-with-text-div">
+							<div class="icon-with-text-icon">
+								<i class="fas fa-toggle-on"></i>
+							</div>
+							<div class="icon-with-text-text">Enable attention key</div>
+						</div>
+					</li>					
+					<li id="extra-settings" class="settings-ul-li">
+						<div class="icon-with-text-div">
+							<div class="icon-with-text-icon">
+								<i class="fas fa-toggle-on"></i>
+							</div>
+							<div class="icon-with-text-text">Open Optikey on Startup</div>
+						</div>
+					</li>
+					<li class="settings-ul-li empty"></li>
+					<li class="settings-ul-li empty"></li>
+					<li class="settings-ul-li empty"></li>
+					<li class="settings-ul-li empty"></li>
+					<li class="settings-ul-li empty"></li>
+					<li class="settings-ul-li empty"></li>
+					<li class="settings-ul-li empty"></li>
+					<li class="settings-ul-li empty"></li>
+					<li class="settings-ul-li empty"></li>
+					<li class="settings-ul-li empty"></li>
+					<li class="settings-ul-li empty"></li>
+					<li class="settings-ul-li empty"></li>
+					<li class="settings-ul-li empty"></li>
+					<li class="settings-ul-li empty"></li>
+					<li class="settings-ul-li empty"></li>
+					<li class="settings-ul-li empty"></li>
+					<li class="settings-ul-li empty"></li>
+				</ul>
+			</li>
+			<li id="sleep" class="li-1">
+				<div class="icon-with-text-div">
+					<div class="icon-with-text-icon">
+						<i class="far fa-moon"></i>
+					</div>
+					<div class="icon-with-text-text">Sleep</div>
+				</div>
+				<ul id="sleep-ul">
+					<li id="sleep-ul-li">
+						<div class="icon-with-text-div">
+							<div class="icon-with-text-icon">
+								<i class="fas fa-power-off"></i>
+							</div>
+							<div class="icon-with-text-text">Quit</div>
+						</div>
+					</li>
+				</ul>
+			</li>
+		</ul>
+		
+		<script defer src="https://use.fontawesome.com/releases/v5.0.8/js/all.js"></script>
+		<script  src="js/menu-mouse.js"></script>
+    </body>
+</html>
